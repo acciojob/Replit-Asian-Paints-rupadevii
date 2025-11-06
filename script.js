@@ -3,13 +3,13 @@ const gridContainer = document.getElementById('grid-container')
 const inputForm = document.forms.inputform;
 const idInput = document.querySelector('input[name="inputid"]');
 const colorInput = document.querySelector('input[name="color"]');
-const changeColor = document.getElementById('change-button');
+const changeColor = document.getElementById('change_button');
 const resetColors = document.getElementById('reset_button')
 
 changeColor.addEventListener("click", (e) => {
 	e.preventDefault();
 	// alert( colorInput.value)
-	const selectedDiv = document.getElementById(`grid-item-${idInput.value}`)
+	const selectedDiv = document.getElementById(`${idInput.value}`)
 	selectedDiv.style.backgroundColor = `${colorInput.value}`;
 	inputForm.reset()
 })
