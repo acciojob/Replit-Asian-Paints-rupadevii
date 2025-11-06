@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 300px;
+}
+
+.grid div{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+}
+
+#user-input{
+	margin-top: 20px;
+}
