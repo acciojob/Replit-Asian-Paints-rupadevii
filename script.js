@@ -10,7 +10,8 @@ changeColor.addEventListener("click", (e) => {
 	e.preventDefault();
 	// alert( colorInput.value)
 	const selectedDiv = document.getElementById(`grid-item-${idInput.value}`)
-	selectedDiv.style.backgroundColor = `${colorInput.value}`
+	selectedDiv.style.backgroundColor = `${colorInput.value}`;
+	inputForm.reset()
 })
 
 resetColors.onclick = (e) => {

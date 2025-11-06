@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
-.grid{
+.grid-container{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	width: 300px;
 }
 
-.grid div{
+.grid-container div{
 	height: 100px;
 	width: 100px;
 	border: 1px solid black;
