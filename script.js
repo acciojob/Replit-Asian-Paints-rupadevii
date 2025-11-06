@@ -4,7 +4,7 @@ const inputForm = document.forms.inputform;
 const idInput = document.querySelector('input[name="inputid"]');
 const colorInput = document.querySelector('input[name="color"]');
 const changeColor = document.getElementById('change-button');
-const resetColors = document.getElementById('Reset')
+const resetColors = document.getElementById('reset-button')
 
 changeColor.addEventListener("click", (e) => {
 	e.preventDefault();
